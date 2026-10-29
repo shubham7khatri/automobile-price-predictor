@@ -1,0 +1,185 @@
+{
+  "feature_columns": [
+    "symboling",
+    "normalized-losses",
+    "make",
+    "fuel-type",
+    "aspiration",
+    "num-of-doors",
+    "body-style",
+    "drive-wheels",
+    "engine-location",
+    "wheel-base",
+    "length",
+    "width",
+    "height",
+    "curb-weight",
+    "engine-type",
+    "num-of-cylinders",
+    "engine-size",
+    "fuel-system",
+    "bore",
+    "stroke",
+    "compression-ratio",
+    "horsepower",
+    "peak-rpm",
+    "city-mpg",
+    "highway-mpg"
+  ],
+  "numeric_columns": [
+    "symboling",
+    "normalized-losses",
+    "wheel-base",
+    "length",
+    "width",
+    "height",
+    "curb-weight",
+    "engine-size",
+    "bore",
+    "stroke",
+    "compression-ratio",
+    "horsepower",
+    "peak-rpm",
+    "city-mpg",
+    "highway-mpg"
+  ],
+  "categorical_columns": [
+    "make",
+    "fuel-type",
+    "aspiration",
+    "num-of-doors",
+    "body-style",
+    "drive-wheels",
+    "engine-location",
+    "engine-type",
+    "num-of-cylinders",
+    "fuel-system"
+  ],
+  "numeric_defaults": {
+    "symboling": 1.0,
+    "normalized-losses": 115.0,
+    "wheel-base": 97.0,
+    "length": 173.2,
+    "width": 65.5,
+    "height": 54.1,
+    "curb-weight": 2414.0,
+    "engine-size": 120.0,
+    "bore": 3.31,
+    "stroke": 3.29,
+    "compression-ratio": 9.0,
+    "horsepower": 95.0,
+    "peak-rpm": 5200.0,
+    "city-mpg": 24.0,
+    "highway-mpg": 30.0
+  },
+  "numeric_steps": {
+    "symboling": 1.0,
+    "normalized-losses": 1.0,
+    "wheel-base": 0.1,
+    "length": 0.1,
+    "width": 0.1,
+    "height": 0.1,
+    "curb-weight": 1.0,
+    "engine-size": 1.0,
+    "bore": 0.1,
+    "stroke": 0.1,
+    "compression-ratio": 0.1,
+    "horsepower": 1.0,
+    "peak-rpm": 1.0,
+    "city-mpg": 1.0,
+    "highway-mpg": 1.0
+  },
+  "categorical_options": {
+    "make": [
+      "alfa-romero",
+      "audi",
+      "bmw",
+      "chevrolet",
+      "dodge",
+      "honda",
+      "isuzu",
+      "jaguar",
+      "mazda",
+      "mercedes-benz",
+      "mercury",
+      "mitsubishi",
+      "nissan",
+      "peugot",
+      "plymouth",
+      "porsche",
+      "renault",
+      "saab",
+      "subaru",
+      "toyota",
+      "volkswagen",
+      "volvo"
+    ],
+    "fuel-type": [
+      "diesel",
+      "gas"
+    ],
+    "aspiration": [
+      "std",
+      "turbo"
+    ],
+    "num-of-doors": [
+      "four",
+      "two"
+    ],
+    "body-style": [
+      "convertible",
+      "hardtop",
+      "hatchback",
+      "sedan",
+      "wagon"
+    ],
+    "drive-wheels": [
+      "4wd",
+      "fwd",
+      "rwd"
+    ],
+    "engine-location": [
+      "front",
+      "rear"
+    ],
+    "engine-type": [
+      "dohc",
+      "l",
+      "ohc",
+      "ohcf",
+      "ohcv",
+      "rotor"
+    ],
+    "num-of-cylinders": [
+      "eight",
+      "five",
+      "four",
+      "six",
+      "three",
+      "twelve",
+      "two"
+    ],
+    "fuel-system": [
+      "1bbl",
+      "2bbl",
+      "4bbl",
+      "idi",
+      "mfi",
+      "mpfi",
+      "spdi",
+      "spfi"
+    ]
+  },
+  "categorical_defaults": {
+    "make": "toyota",
+    "fuel-type": "gas",
+    "aspiration": "std",
+    "num-of-doors": "four",
+    "body-style": "sedan",
+    "drive-wheels": "fwd",
+    "engine-location": "front",
+    "engine-type": "ohc",
+    "num-of-cylinders": "four",
+    "fuel-system": "mpfi"
+  }
+}
